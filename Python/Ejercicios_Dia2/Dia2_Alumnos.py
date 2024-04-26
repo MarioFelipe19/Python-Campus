@@ -1,11 +1,21 @@
-nom = str.lower(input("Ingrse su Nombre:"))
-sex = str(input("Ingrse su sexo:"))
+nom = str.lower(input("Ingrse su Nombre: "))
+sex = str.lower(input("Ingrse su sexo M o F: "))
 lista = ["a","b","c","d","e","f","g","h","i","j","k","l"]
+lista2 = ["o","p","q","r","s","t","u","v","w","x","y","z"]
 
-for i in range(len(lista)):
-    if nom[0] == lista[i]:
-        print("Es del grupo A")
-        break
-    else:
-        print("Es del grupo N")
-        break
+gru = "B"
+
+for i in lista:
+    if i == nom[0]  and sex == "f":
+        gru = "A"
+for i in lista2: 
+    if i == nom[0] and sex == "m" :
+        gru = "A"
+
+print(f"El estudiante {nom} es del grupo: {gru}")
+
+
+
+
+
+
