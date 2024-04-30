@@ -25,7 +25,7 @@ print(dulces)
 dulces.insert(2, "malteada")
 #Eliminar el primer elemento que encuentra 
 dulces.remove("chocolatina")
-#Eliminar el elemento en una posicion dada y tambien lo devuelve, si no se el pasa valores devuelve el ultimo balor 
+#Eliminar el elemento en una posicion dada y tambien lo devuelve, si no se  pasa valores devuelve el ultimo balor 
 dulces.pop(2)
 #Eliminar todos los elementos de la lista 
 dulces.clear()
