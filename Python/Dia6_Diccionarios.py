@@ -33,6 +33,16 @@ for i in paises:
 print(paises[0]["nombre"])
 print(paises[0].get("idioma"))
 
+#----------------------------------------------
+estudiantes = {
+    "luis Nicolas": 20,
+    "Isabella": 18,
+    "Juan David": 18,
 
-
+}
+#devuelve solo los valores
+print(estudiantes.values)
+#eliminar 
+print(estudiantes.pop("Isabella"))
+print(estudiantes.pop("Karen","El estudiante no existe"))
 
