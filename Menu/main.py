@@ -1,5 +1,10 @@
-from menu import*
+from menu import*   
+import os
 
+def clear_console():
+    # Detecta el sistema operativo y usa el comando adecuado
+    command = 'cls' if os.name == 'nt' else 'clear'
+    os.system(command)
 
 while True:
     menu_principal()
@@ -14,6 +19,8 @@ while True:
         
         print(1)
     if op == 2:
+        clear_console()
         print(2)
     if op == 3:
+        
         print(3)
